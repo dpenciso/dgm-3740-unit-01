@@ -117,15 +117,14 @@ body {
 header {
   position: relative;
   display: flex;
+  justify-content: center;
   padding: 1rem;
   background-color: #b4b4b4;
   width: 100%; }
-  header img {
-    align-self: flex-start;
-    justify-self: flex-start; }
-  header h1 {
-    align-self: flex-end;
-    justify-self: flex-end; }
+  header a:hover {
+    color: white; }
+  header a {
+    color: black; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

@@ -29,16 +29,18 @@ body {
 header {
     position: relative;
     display: flex;
+    justify-content: center;
     padding: 1rem;
     background-color: rgb(180, 180, 180);
     width: 100%;
     img {
-      align-self: flex-start;
-      justify-self: flex-start;
+
     }
-    h1 {
-      align-self: flex-end;
-      justify-self: flex-end;
+    a:hover {
+      color: white;
+    }
+    a {
+      color: black;
     }
 } // end header
 
