@@ -116,21 +116,18 @@ body {
 /* HEADER  */
 header {
   position: relative;
-  display: flex;
-  justify-content: center;
   padding: 1rem;
   background-color: #b4b4b4;
   width: 100%; }
-  header a:hover {
-    color: white; }
-  header a {
-    color: black; }
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both; }
+  header .header-div {
+    display: flex;
+    justify-content: space-between; }
+    header .header-div .phone-number {
+      align-self: flex-end; }
+      header .header-div .phone-number a:hover {
+        color: white; }
+      header .header-div .phone-number a {
+        color: black; }
 
 nav {
   display: flex;
@@ -143,7 +140,7 @@ nav {
     align-self: center;
     width: 50%;
     margin: 0;
-    padding: .25rem; }
+    padding: 0.25rem; }
     nav .search-box input {
       height: 2rem;
       width: 100%; }
@@ -153,7 +150,43 @@ nav {
       align-self: center; }
       nav .search-box .search-icon i {
         text-align: center;
-        padding: .5rem; }
+        padding: 0.5rem; }
+
+.blog h1 {
+  margin: 1rem; }
+.blog .articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .blog .articles .ind-article {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap; }
+    .blog .articles .ind-article .article-title {
+      align-self: flex-start;
+      justify-self: center;
+      width: 100%;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.25); }
+    .blog .articles .ind-article .article-date {
+      align-self: flex-end;
+      justify-self: center;
+      width: 100%;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.25); }
+    .blog .articles .ind-article h3 {
+      padding: .25rem; }
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 #hamburgerBtn {
   display: none; }
@@ -277,12 +310,10 @@ nav {
     max-width: 75rem;
     margin: 0 auto; }
 
-  header {
-    display: flex; }
-
   .header-div {
     max-width: 75rem;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 1rem; }
 
   /* NAVigation  */
   nav {
