@@ -113,6 +113,12 @@ body {
   font-weight: 400;
   min-width: 320px; }
 
+a:hover {
+  color: white; }
+
+a {
+  color: black; }
+
 /* HEADER  */
 header {
   position: relative;
@@ -124,10 +130,6 @@ header {
     justify-content: space-between; }
     header .header-div .phone-number {
       align-self: flex-end; }
-      header .header-div .phone-number a:hover {
-        color: white; }
-      header .header-div .phone-number a {
-        color: black; }
 
 nav {
   display: flex;
@@ -181,6 +183,17 @@ nav {
       background-color: rgba(0, 0, 0, 0.25); }
     .blog .articles .ind-article h3 {
       padding: .25rem; }
+
+#footerWrapper {
+  background-color: #b4b4b4; }
+  #footerWrapper .footer-div {
+    padding: 1rem; }
+  #footerWrapper .copyright {
+    background-color: black;
+    color: white;
+    text-align: center; }
+    #footerWrapper .copyright a {
+      color: white; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

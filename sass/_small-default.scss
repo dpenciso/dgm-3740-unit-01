@@ -29,6 +29,13 @@ body {
   min-width: 320px;
 }
 
+a:hover {
+  color: white;
+}
+a {
+  color: black;
+}
+
 /* HEADER  */
 
 header {
@@ -41,12 +48,6 @@ header {
     justify-content: space-between;
     .phone-number {
       align-self: flex-end;
-      a:hover {
-        color: white;
-      }
-      a {
-        color: black;
-      }
     }
   }
 } // end header
@@ -121,7 +122,22 @@ nav {
   }
 }
 
+// footer
 
+#footerWrapper {
+  background-color: rgb(180, 180, 180);
+  .footer-div {
+    padding: 1rem;
+  }
+  .copyright {
+    background-color: black;
+    color: white;
+    text-align: center;
+    a {
+      color: white;
+    }
+  }
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
