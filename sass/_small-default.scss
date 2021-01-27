@@ -93,9 +93,10 @@ nav {
     flex-wrap: wrap;
     justify-content: space-evenly;
     .ind-article {
-      background-color: red;
-      width: 150px;
-      height: 150px;
+      background-image: url(../images/card1.jpg);
+      background-position: center;
+      width: 200px;
+      height: 200px;
       margin: 1rem;
       display: flex;
       flex-wrap: wrap;

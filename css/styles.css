@@ -161,9 +161,10 @@ nav {
   flex-wrap: wrap;
   justify-content: space-evenly; }
   .blog .articles .ind-article {
-    background-color: red;
-    width: 150px;
-    height: 150px;
+    background-image: url(../images/card1.jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
     margin: 1rem;
     display: flex;
     flex-wrap: wrap; }
@@ -318,6 +319,19 @@ nav {
   #primaryNav li:hover ul {
     display: block; } }
 /* End Mobile Styles */
+@media only screen and (min-width: 35em) {
+  .header-img {
+    width: 15%; }
+    .header-img img {
+      width: 100%; }
+
+  .your-class {
+    width: 100%; }
+    .your-class img {
+      width: 100%; }
+
+  .ind-article {
+    width: 33%; } }
 @media only screen and (min-width: 64em) {
   nav, main, footer {
     max-width: 75rem;
