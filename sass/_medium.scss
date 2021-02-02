@@ -1,18 +1,69 @@
 .header-img {
-	width: 15%;
-	img {
-		width: 100%;
-	}
+  width: 15%;
+  img {
+    width: 100%;
+  }
 }
 
 .your-class {
-	width: 100%;
-	img {
-		width: 100%;
-	}
+  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 .ind-article {
-    width: 33%;
+  width: 33%;
 }
+
+header {
+  .header-div {
+    .phone-number {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+nav {
+  .search-box {
+    width: 25%;
+    margin-left: 15rem;
+  }
+}
+
+.blog {
+  h1 {
+    margin: 1rem;
+    font-size: 2rem;
+  }
+  .articles {
+    .ind-article {
+      background-image: url(../images/card1.jpg);
+      background-position: center;
+      width: 200px;
+      height: 200px;
+      margin: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+#footerWrapper {
+  .footer-sections {
+	  display: flex;
+	  flex-wrap: wrap;
+    .footer-div {
+	  padding: 1rem;
+	  width: 50%;
+    }
+  }
+  .copyright {
+	.social {
+	  margin: 1rem auto;
+	  width: 50%;
+	}
+  }
+}
+
 

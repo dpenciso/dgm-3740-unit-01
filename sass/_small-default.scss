@@ -92,11 +92,18 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    a {
+      text-decoration: none;
+      opacity: 75%;
+    }
+    a:hover {
+      opacity: 100%;
+    }
     .ind-article {
       background-image: url(../images/card1.jpg);
       background-position: center;
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
       margin: 1rem;
       display: flex;
       flex-wrap: wrap;
@@ -134,8 +141,21 @@ nav {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 1rem;
     a {
       color: white;
+    }
+    .social {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 1rem;
+      i {
+        font-size: 2rem;
+      }
+      i:hover {
+        color: rgb(0, 247, 255);
+      }
     }
   }
 }
