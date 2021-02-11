@@ -154,41 +154,120 @@ nav {
         text-align: center;
         padding: 0.5rem; }
 
-.blog h1 {
-  margin: 1rem; }
-.blog .articles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-  .blog .articles a {
-    text-decoration: none;
-    opacity: 75%; }
-  .blog .articles a:hover {
-    opacity: 100%; }
-  .blog .articles .ind-article {
-    background-image: url(../images/card1.jpg);
-    background-position: center;
-    width: 150px;
-    height: 150px;
-    margin: 1rem;
+.your-class {
+  width: 100%; }
+  .your-class img {
+    width: 100%; }
+
+.blog {
+  margin-bottom: 1rem; }
+  .blog h1 {
+    margin: 1rem; }
+  .blog .articles {
     display: flex;
-    flex-wrap: wrap; }
-    .blog .articles .ind-article .article-title {
-      align-self: flex-start;
-      justify-self: center;
-      width: 100%;
-      text-align: center;
-      color: white;
-      background-color: rgba(0, 0, 0, 0.25); }
-    .blog .articles .ind-article .article-date {
-      align-self: flex-end;
-      justify-self: center;
-      width: 100%;
-      text-align: center;
-      color: white;
-      background-color: rgba(0, 0, 0, 0.25); }
-    .blog .articles .ind-article h3 {
-      padding: .25rem; }
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .blog .articles a {
+      text-decoration: none;
+      opacity: 75%; }
+    .blog .articles a:hover {
+      opacity: 100%; }
+    .blog .articles .ind-article1 {
+      background-image: url(../images/blog1.jpg);
+      background-position: center;
+      width: 150px;
+      height: 150px;
+      margin: 1rem;
+      display: flex;
+      flex-wrap: wrap; }
+      .blog .articles .ind-article1 .article-title {
+        align-self: flex-start;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.25); }
+      .blog .articles .ind-article1 .article-date {
+        align-self: flex-end;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.25); }
+      .blog .articles .ind-article1 h3 {
+        padding: .25rem; }
+    .blog .articles .ind-article2 {
+      background-image: url(../images/blog2.jpg);
+      background-position: center;
+      width: 150px;
+      height: 150px;
+      margin: 1rem;
+      display: flex;
+      flex-wrap: wrap; }
+      .blog .articles .ind-article2 .article-title {
+        align-self: flex-start;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.25); }
+      .blog .articles .ind-article2 .article-date {
+        align-self: flex-end;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.25); }
+      .blog .articles .ind-article2 h3 {
+        padding: .25rem; }
+    .blog .articles .ind-article3 {
+      background-image: url(../images/blog3.jpg);
+      background-position: center;
+      width: 150px;
+      height: 150px;
+      margin: 1rem;
+      display: flex;
+      flex-wrap: wrap; }
+      .blog .articles .ind-article3 .article-title {
+        align-self: flex-start;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.25); }
+      .blog .articles .ind-article3 .article-date {
+        align-self: flex-end;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.25); }
+      .blog .articles .ind-article3 h3 {
+        padding: .25rem; }
+    .blog .articles .ind-article4 {
+      background-image: url(../images/blog4.jpg);
+      background-position: center;
+      width: 150px;
+      height: 150px;
+      margin: 1rem;
+      display: flex;
+      flex-wrap: wrap; }
+      .blog .articles .ind-article4 .article-title {
+        align-self: flex-start;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.25); }
+      .blog .articles .ind-article4 .article-date {
+        align-self: flex-end;
+        justify-self: center;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.25); }
+      .blog .articles .ind-article4 h3 {
+        padding: .25rem; }
 
 #footerWrapper {
   background-color: #b4b4b4; }
@@ -338,11 +417,6 @@ nav {
   .header-img {
     width: 15%; }
     .header-img img {
-      width: 100%; }
-
-  .your-class {
-    width: 100%; }
-    .your-class img {
       width: 100%; }
 
   .ind-article {
