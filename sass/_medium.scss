@@ -1,7 +1,20 @@
-.header-img {
-  width: 15%;
-  img {
-    width: 100%;
+header {
+  position: relative;
+  padding: 1rem;
+  background-color: rgb(180, 180, 180);
+  width: 100%;
+  .header-div {
+    display: flex;
+    justify-content: space-between;
+    .header-img {
+      width: 15%;
+      img {
+        width: 100%;
+      }
+    }
+    .phone-number {
+      align-self: flex-end;
+    }
   }
 }
 
